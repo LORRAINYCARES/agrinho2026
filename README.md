@@ -19,4 +19,4 @@ O **EcoSim Agro** é um simulador de gestão agrícola criado para o Concurso Ag
 3. Não há necessidade de servidor backend.
 
 ---
-*Projeto desenvolvido por [Nomes dos Alunos] para o Concurso Agrinho 2026.*
+*Projeto desenvolvido por Lorrainy Cares para o Concurso Agrinho 2026.*
