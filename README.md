@@ -7,7 +7,7 @@ O **EcoSim Agro** é um simulador de gestão agrícola criado para o Concurso Ag
 - **Simulação de Impacto:** Cada decisão afeta a saúde do solo e o capital do produtor.
 - **Ciclo de Turnos:** O jogo desafia o usuário a tomar decisões estratégicas ao longo de 10 rodadas.
 
-##  Tecnologias Utilizadas
+##  Linguagens Utilizadas
 - **HTML:** Estrutura semântica.
 - **CSS:** Estilização responsiva.
 - **JavaScript:** Manipulação de estado e lógica do jogo.
@@ -19,3 +19,5 @@ O **EcoSim Agro** é um simulador de gestão agrícola criado para o Concurso Ag
 
 ---
 *Projeto desenvolvido por Lorrainy Cares para o Concurso Agrinho 2026.*
+*1ª Série - Ensino Médio*
+*Colégio do Campo Princesa Isabel - EFM*
