@@ -6,12 +6,11 @@ O **EcoSim Agro** é um simulador de gestão agrícola criado para o Concurso Ag
 ## Funcionalidades
 - **Simulação de Impacto:** Cada decisão afeta a saúde do solo e o capital do produtor.
 - **Ciclo de Turnos:** O jogo desafia o usuário a tomar decisões estratégicas ao longo de 10 rodadas.
-- **Feedback Visual:** Interação direta via DOM manipulado por JavaScript.
 
 ## Tecnologias Utilizadas
-- **HTML5:** Estrutura semântica.
-- **CSS3:** Estilização responsiva com foco em UX.
-- **JavaScript (ES6):** Manipulação de estado e lógica do jogo sem uso de frameworks externos.
+- **HTML:** Estrutura semântica.
+- **CSS:** Estilização responsiva.
+- **JavaScript:** Manipulação de estado e lógica do jogo.
 
 ## Como Executar
 1. Clone este repositório.
