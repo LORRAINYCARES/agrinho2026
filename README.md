@@ -13,10 +13,7 @@ O **EcoSim Agro** é um simulador de gestão agrícola criado para o Concurso Ag
 - **JavaScript:** Manipulação de estado e lógica do jogo.
 
 ## Como Executar
-1. Clone este repositório.
-2. Abra o arquivo `index.html` em qualquer navegador moderno.
-3. Não há necessidade de servidor backend.
-
+1. Abra o arquivo `index.html` em qualquer navegador moderno.
 ---
 *Projeto desenvolvido por Lorrainy Cares para o Concurso Agrinho 2026.*
 *1ª Série - Ensino Médio*
