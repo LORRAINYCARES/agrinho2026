@@ -1,93 +1,82 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoSim Agro 2026 🚜</title>
+
+    <title>EcoSim Agro 2026</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body bgcolor="#132E15" text="#FFFFFF" link="#A3E4D7">
 
-    <center>
-        <header>
-            <br>
-            <h1><font color="#4CAF50" face="Courier New">🌱 EcoSim Agro 2026 🌱</font></h1>
-            <p><i><font color="#E0F2F1" face="Courier New">O destino da fazenda e do planeta está nas suas mãos!</font></i></p>
-        </header>
-    </center>
+<body>
 
-    <hr color="#4CAF50" size="3">
+    <header>
+
+        <h1>EcoSim Agro 2026</h1>
+
+        <p>Equilíbrio entre produção e meio ambiente</p>
+
+    </header>
+
+
 
     <main id="game-container">
-        <center>
-            <table border="2" bordercolor="#4CAF50" cellpadding="15" bgcolor="#1B4D3E" width="60%">
-                <tr>
-                    <td align="center">
-                        <strong><font face="Courier New" size="4">💰 CARTEIRA:</font></strong> 
-                        <font face="Courier New" size="4" color="#FFD700">R$ <span id="dinheiro">500</span></font>
-                    </td>
-                    <td align="center">
-                        <strong><font face="Courier New" size="4">⏳ TURNO:</font></strong> 
-                        <font face="Courier New" size="4" color="#81C784"><span id="turno">1</span> / 10</font>
-                    </td>
-                </tr>
-            </table>
 
-            <br>
+        <div class="stats">
 
-            <table border="1" bordercolor="#81C784" cellpadding="10" bgcolor="#143F30" width="60%">
-                <tr>
-                    <td align="center">
-                        <p><strong><font face="Courier New">🌾 SAÚDE DO SOLO: <span id="solo-texto">100</span>%</font></strong></p>
-                        <progress id="barra-progresso" value="100" max="100" style="width: 80%; height: 20px;"></progress>
-                    </td>
-                </tr>
-            </table>
+            <div>Dinheiro: R$ <span id="dinheiro">500</span></div>
 
-            <br><br>
+            <div>Turno: <span id="turno">1</span>/10</div>
 
-            <table border="3" bordercolor="#FFEB3B" cellpadding="20" bgcolor="#2E2E2E" width="70%">
-                <tr>
-                    <td>
-                        <font face="Courier New" color="#FFEB3B"><strong>[SISTEMA]:</strong></font>
-                        <font face="Courier New" color="#FFFFFF">
-                            <p id="mensagem">👨‍🌾 Bem-vindo, produtor! O mercado está aquecido, mas a terra cansa. Escolha sua estratégia para esta rodada com sabedoria.</p>
-                        </font>
-                    </td>
-                </tr>
-            </table>
+        </div>
 
-            <br><br>
+        
 
-            <h3><font face="Courier New" color="#81C784">🕹️ PAINEL DE COMANDO</font></h3>
-            
-            <table cellpadding="10">
-                <tr>
-                    <td>
-                        <button class="btn-acao" data-acao="monocultura" style="padding: 10px 20px; font-weight: bold; background-color: #E57373; cursor: pointer;">
-                            🚜 Monocultura (Lucro Rápido)
-                        </button>
-                    </td>
-                    <td>
-                        <button class="btn-acao" data-acao="rotacao" style="padding: 10px 20px; font-weight: bold; background-color: #81C784; cursor: pointer;">
-                            🔄 Rotação de Culturas (Sustentável)
-                        </button>
-                    </td>
-                    <td>
-                        <button class="btn-acao" data-acao="descanso" style="padding: 10px 20px; font-weight: bold; background-color: #64B5F6; cursor: pointer;">
-                            💤 Descanso do Solo (Recuperação)
-                        </button>
-                    </td>
-                </tr>
-            </table>
-        </center>
+        <div class="status-solo">
+
+            <p>Saúde do Solo: <span id="solo-texto">100</span>%</p>
+
+            <div class="barra-fundo">
+
+                <div id="barra-progresso" class="barra-preenchimento"></div>
+
+            </div>
+
+        </div>
+
+
+
+        <div id="display-area">
+
+            <p id="mensagem">Bem-vindo, produtor! Escolha como usar sua terra nesta rodada.</p>
+
+        </div>
+
+
+
+        <div class="controls">
+
+            <button class="btn-acao" data-acao="monocultura">Monocultura (Lucro Rápido)</button>
+
+            <button class="btn-acao" data-acao="rotacao">Rotação de Culturas (Sustentável)</button>
+
+            <button class="btn-acao" data-acao="descanso">Descanso do Solo (Recuperação)</button>
+
+        </div>
+
     </main>
 
-    <br><br>
-    <hr color="#4CAF50" size="1">
-    <center>
-        <footer>
-            <small><font face="Courier New" color="#A3E4D7">EcoSim Agro © 2026 - Salve a sua fazenda.</font></small>
-        </footer>
-    </center>
+
+
+    <script src="js/game.js"></script>
+
 </body>
-</html>
+
+</html> 
+
